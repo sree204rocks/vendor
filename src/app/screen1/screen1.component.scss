@@ -1,0 +1,76 @@
+#id1{
+
+padding-top: 0.2cm;
+}
+#id2{
+    margin: 10px 10px;
+    padding-top: 4cm;
+}
+#id3{
+    margin: 10px 10px;
+    padding-top: 0.5cm;
+}
+
+#number{
+    font-family: sans-serif;
+    height: 1cm;
+    width: 10cm;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+    color: orange;
+    font-size: 15px;
+   
+    border-bottom: 2px solid;
+    
+    
+ 
+}
+
+.input-group-addon{
+    
+    background-color: white;
+    border: none;
+    color: orange;
+    border-bottom: 2px solid;
+   
+    
+   
+}
+.button{
+    font-family: sans-serif;
+    height: 1cm;
+    width: 3cm;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    background-color: DodgerBlue;
+    border-radius: 5%;
+   
+   
+}
+.btn {padding-bottom: 0.5cm;
+    background-color: DodgerBlue;
+    
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+ .btn:hover{
+     color:white;
+     background-color: green;
+ }
+ .button:hover{
+    color:white;
+    background-color: green;
+}
+#body{
+ background-color: rgb(196, 162, 201);
+}

@@ -1,0 +1,71 @@
+.div1{
+    width: 500px;
+   
+    background-color: cadetblue;
+    margin: 3cm 3cm;
+    height: 360px;
+    padding-top: 0.5cm;
+    border-radius: 0.5cm;
+}
+#male{
+   
+    text-align: left;
+    margin-left: 2cm;
+    size: 30px;  
+}
+
+#female{
+   
+    text-align: left;
+    margin-left: 2cm;
+    size: 30px;
+    
+}
+#text{
+    margin-left: 2cm;
+    margin-top: 0.5cm;
+    width: 9cm;
+    height: 1cm;
+}
+#text:hover{
+   color: blue;
+}
+#button{
+    background-color: royalblue; color: white;
+     margin-top: 0.5cm;
+     width: 9cm;height: 1cm;
+    border: royalblue;
+    cursor: pointer;
+    margin-left: 2cm;
+}
+#h3{
+     margin-left: 3cm;
+}
+#button:hover{
+    background-color: rgb(61, 178, 32); color:white;
+    
+}
+#label{
+    font-size: 15px;
+    margin-left: 0.3cm;
+}
+#label1{
+    font-size: 15px;
+    margin-left: 0.3cm;
+   
+}
+.div2{
+    
+    
+    float: right;
+    width: 700px;
+    padding-left: 3cm;
+    margin-top: 1cm;
+    
+}
+#hr{
+         border-bottom: 2px blue solid;
+}
+
+
+    

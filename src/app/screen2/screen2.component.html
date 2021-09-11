@@ -1,0 +1,174 @@
+ 
+
+     <div class="login-box">
+     <h1>Create your seller account</h1>
+     
+     <div class="textbox">
+        <i class="fa fa-volume-control-phone" style="font-size:24px"></i>
+         <input type="text"   placeholder="Mobile Number"   class="form-control" id="numbers"   [(ngModel)]="number2"  >
+
+     </div>
+     <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+       
+
+
+     <div class="textbox">
+        <i class="fa fa-key" aria-hidden="true"></i>
+        <input type="password" placeholder="OTP"  formControlName="otp" >
+        <div class="error" *ngIf="myForm.get('otp').hasError('required') && myForm.get('otp').touched">
+            OTP  is required
+          </div>
+          <div class="error" *ngIf="myForm.get('otp').hasError('minlength') && myForm.get('otp').touched">
+            Minimum of 4 characters
+          </div>
+    </div>
+    <p>We Have sent a One Time Password (OTP)in  a sms to this mobile number</p>
+    <div class="textbox">
+        <i class="fa fa-user" style="font-size:24px"></i>
+        <input formControlName="name" placeholder=" Enter Your name"> 
+        <div class="error" *ngIf="myForm.get('name').hasError('required') && myForm.get('name').touched">
+          Name is required
+        </div>
+        <div class="error" *ngIf="myForm.get('name').hasError('minlength') && myForm.get('name').touched">
+          Minimum of 4 characters
+        </div>
+    </div>
+
+    <div class="textbox">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <input formControlName="email" placeholder="Your email">
+        <div class="error" *ngIf="myForm.get('email').hasError('required') && myForm.get('email').touched">
+           Mail is required
+          </div>
+        <div class="error" *ngIf="myForm.get('email').hasError('pattern') && myForm.get('email').touched ">
+          Enter valid email address
+        </div>
+        
+    </div>
+    <div class="textbox">
+        <i class="fa fa-briefcase" aria-hidden="true" ></i>
+
+       <input formControlName="name1" placeholder=" Enter Company name"> 
+        <div class="error" *ngIf="myForm.get('name1').hasError('required') && myForm.get('name1').touched">
+          Name is required
+        </div>
+        <div class="error" *ngIf="myForm.get('name1').hasError('minlength') && myForm.get('name1').touched">
+          Minimum of 4 characters
+        </div>
+
+    </div>
+    <input class="btn" type="button" placeholder="Sign Up" value="Sign Up" (click)= "onSubmit()" >
+
+
+</form>
+
+
+     <p>Already a seller ? <a href="">Login Here</a></p>
+    
+ </div> 
+
+
+
+
+
+ 
+ <div  style="float: right; margin-right: 0.5cm;">
+
+<h4 class="h4">Sell to crores of Customers right from <b style="font-size: 35px;">your door steps – </b>  </h4>
+<div class="ed">
+<b>All you need to sell <b style="font-size: 20px;color: brown;">EdQart</b></b> 
+</div>
+
+<div class="row">
+
+<div class="col-sm-4">
+    <div class="row">
+        <div class="pics">
+    <a routerLink="">
+        <img src="/assets/images/gst.png"  alt="gst" id="img">
+        <div class="text-block" style="text-align: center;" >
+            <p>GST</p>
+          </div>
+      </a>
+    </div>
+    <div class="vl"></div>
+</div>
+
+<div class="row">
+    <div class="pics">
+<a routerLink="">
+    <img src="/assets/images/vectorbook.jpg"  alt="gst" id="img">
+    <div class="text-block" style="text-align: center;" ><br>
+        <p>Books</p>
+      </div>
+  </a>
+</div>
+<div class="vl"></div>
+</div>
+</div>
+
+<div class="col-sm-4">
+    <div class="row">
+        <div class="pics">
+    <a routerLink="">
+        <img src="/assets/images/bankaccount.png"  alt="gst" id="img">
+        <div class="text-block" style="text-align: center;" ><br>
+            <p>Bank Account</p>
+          </div>
+      </a>
+    </div>
+    <div class="vl"></div>
+</div>
+
+<div class="row">
+    <div class="pics">
+<a routerLink="">
+    <img src="/assets/images/vectoruniform.jpg"  alt="gst" id="img">
+    <div class="text-block" style="text-align: center;" >
+        <p>Uniform</p>
+      </div>
+  </a>
+</div>
+<div class="vl"></div>
+</div>
+</div>
+
+<div class="col-sm-4">
+    <div class="row">
+        <div class="pics">
+    <a routerLink="">
+        <img src="/assets/images/sell.jpg"  alt="gst" id="img">
+        <div class="text-block" style="text-align: center;" >
+            <p>Product Sell</p>
+          </div>
+      </a>
+    </div>
+    
+</div>
+
+<div class="row">
+    <div class="pics">
+<a routerLink="">
+    <img src="/assets/images/vectroshoe.jpg"  alt="gst" id="img">
+    <div class="text-block" style="text-align: center;" >
+        <p>Shoe</p>
+      </div>
+  </a>
+</div>
+
+</div>
+</div>
+</div>
+
+<hr id="hr">
+
+<h4>How will this information be used?</h4>
+<p id="para"> You can use your mobile Number or Email for Login Your  Seller Account .</p>
+
+
+
+ </div>
+
+ 
+
+

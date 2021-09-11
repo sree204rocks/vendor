@@ -1,0 +1,102 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.login-box{
+    width: 550px;
+    position: absolute;
+    color:black;  
+    background-color:rgb(195, 204, 72); 
+    margin-top: 70px ;
+    margin-left: 70px;
+    padding-right: 1cm;
+    padding-left: 1cm;
+
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+   
+    margin-bottom: 20px;
+    padding:8px 0 ;
+    
+}
+.textbox{
+    width: 100%;
+    
+    overflow: hidden;
+    font-size: 20px;
+    padding: 12px 0;
+    margin: 3px 0 ;
+    border-bottom: 2px solid rgb(31, 28, 28); 
+}
+.textbox i{
+    width: 30px;
+    height: 10px;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    float: left;
+    margin:  0 7px;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    background: green;
+    
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 10px;
+    height: 1.3cm;
+
+    
+
+}
+ .col-sm-4 .vl {
+    border-left: 4px solid green;
+    height: 100px;
+    position: absolute;
+    right: 30%;
+    margin-left: -40px;
+    top: 1;}
+
+    #img{
+        width: 100px;
+
+    }
+    #hr{
+        border-bottom: 2px solid rgb(219, 19, 12);
+        margin-bottom: 1cm;
+    }
+    .row{
+        margin-top: 0.4cm;
+    }
+    .h4{
+        padding-left: 0.5cm;
+        margin-top: 1cm;
+       
+        
+        
+
+    }
+    .ed{
+        margin-top: 1cm;
+    }
+    #para{
+        font-family: sans-serif;
+        font-size: 20px;
+        
+        margin-top: 0.3cm;
+    }
+
+    

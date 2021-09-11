@@ -1,0 +1,30 @@
+
+<div class="login-box">
+    <form [formGroup]="myForm" >
+    <h1>Give Your Pick up Address</h1>
+
+<div class="textbox"> 
+     <input  placeholder=" Enter PIN"   formControlName="pin" >
+     <button class="submit" value="button" id="button">Verify</button>  
+     <div class="error" *ngIf="myForm.get('pin').hasError('required') && myForm.get('pin').touched">
+        Pin  is required
+      </div>
+      <div class="error" *ngIf="myForm.get('pin').hasError('minlength') && myForm.get('pin').touched">
+        Minimum of 4 characters
+      </div> 
+ </div>
+
+
+</form>
+<input class="btn" type="button" value="CONTINUE"  (click)="conti()">
+</div> 
+
+
+
+<div class="matter">
+    <h2> Give us the address  of @Warehouse or<br> @Store where the inventory is available </h2>
+    <b>Why is this address required ?</b>
+    <p>This helps our logistics partners to pick up the packed orders for home deliveries.</p>
+</div>
+
+

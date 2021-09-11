@@ -1,0 +1,103 @@
+<body id="body">
+  <!--
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<div  style="text-align: center;"   (click)="next()">      
+<img style="width:200px;height: 100px; text-align: center; background-color: rosybrown; margin-bottom: 1cm;" src="/assets/images/logo.png" >
+</div>
+<div style="text-align: center;color: blue; margin-bottom: 0.5cm;"><h3> “Set up an online store for all your authorised schools and offer home delivery option at NO INITIAL COST”</h3></div>
+<h1 style="text-align: center;color: red">Vendor Registartion Process</h1>
+
+<a  style="padding: 1cm;float: right; color: green;" href="" target="_blank"><h4 >“Why Partner with EdQart” & “Services Provided by EdQart”</h4></a> <br>
+ 
+<div id="id2"> 
+  <b>  Enter the Mobile Nmber Here</b> <br>
+  <button class="btn"><i class="fa fa-user" aria-hidden="true"></i>   Login For Exchsting Seller</button>
+</div>
+
+<div id="id3">
+<b class="bold"> Click Register Here</b>
+  <div class="input-group" id="id1">
+    <span class="input-group-addon"><i   class="fa fa-mobile" aria-hidden="true"></i></span>
+    <input id="number" type="text" placeholder=" Enter Number Here"  [(ngModel)]="number1" >
+    <button type="submit" class="button">Register Now</button>
+  </div> <br>
+  <p>Validation 10 Digit mobile Number Only (only Numeric Field). <br>
+    Click on Login for existing Seller.
+    </p>
+  </div>
+  -->
+  <form [formGroup]="myForm">
+
+    <div class="form-group col-md-4">
+      <label>First Name</label>
+      <input type="text" class="form-control" formControlName="name">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Last Name</label>
+      <input type="text" class="form-control" formControlName="name1">
+    </div>
+
+
+    <div class="form-group col-md-4">
+      <label>Email</label>
+      <input type="email" class="form-control" formControlName="email">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Number</label>
+      <input type="number" class="form-control" formControlName="number">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Class</label>
+      <input type="text" class="form-control" formControlName="class">
+    </div>
+
+  </form>
+
+
+
+
+
+  Table length : {{listdata.length}}
+  <table *ngIf="show =='signin'" id="signin" style="text-align: center;">
+    <thead>
+      <tr>
+        <th>S.no</th>
+        <th>ID</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>email</th>
+        <th>Number</th>
+        <th>Class</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr style="text-align: center;" *ngFor="let item of listdata ;let i =index">
+        <td>{{i+1}}</td>
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.name1}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.number}}</td>
+        <td>{{item.class}}</td>
+        <td><button  class="button" (click)="getById(item)">Edit</button>
+          <button class="button" (click)="delete1(item)">Delete</button>
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+<div >
+
+</div>
+
+</body>

@@ -1,0 +1,75 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.login-box{
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    color:black;  
+    background-color:rgb(195, 204, 72); 
+    margin-top:150px ;
+    margin-left: 400px;
+    padding-right: 1cm;
+    padding-left: 1cm;
+
+}
+.textbox i{
+    width: 30px;
+    height: 10px;
+    float: left;
+    text-align: center;
+    padding-top: 8px;}
+    
+.login-box h1{
+   
+    float: left;
+    font-size: 40px;
+   
+    margin-bottom: 5px;
+    padding:5px 0 ;
+    
+}
+.login-box p{
+    float: left;
+    font-size: 15px;
+   
+    margin-bottom: 10px;
+    padding:10px 0 ;
+    
+}
+.textbox{
+    width: 100%;
+    
+    overflow: hidden;
+    font-size: 20px;
+    padding: 12px 0;
+    margin: 3px 0 ;
+    border-bottom: 2px solid rgb(31, 28, 28); 
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    float: left;
+    margin:  0 7px;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    background: green;
+    
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 10px;
+    height: 1.3cm;}
+
+     
+    
+    
+    

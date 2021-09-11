@@ -1,0 +1,50 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.textbox{
+    width: 30%;
+    margin-left: 1cm;
+    overflow: hidden;
+    font-size: 20px;
+   margin-top: 0.5cm;
+   margin-bottom: 0.5cm;
+  border: 1px solid;
+}
+.textbox i{
+    width: 40px;
+    height: 20px;
+    float: left;
+
+    padding-top: 8px;
+    color:green;
+
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    float: left;
+    margin:  0 7px;
+    text-align: center;}
+
+    .button{
+        text-align: center;
+        color: white;
+        background-color:royalblue;
+        margin-left: 18cm;
+        width: 4cm;
+        height: 1.2cm;
+        font-size: 25px;
+        border-radius: 10%;
+        cursor: pointer;
+    }
+   .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+    
+
+
+
